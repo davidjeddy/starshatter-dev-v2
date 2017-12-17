@@ -26,8 +26,8 @@
 Questions? Comments? Problems? EMail me @ <a href="mailto:starshatterdev@hotmail.com" target="_new" class="minilinks">starshatterdev@hotmail.com</a><BR></td>
 	</tr>
 	<tr>
-		<td align="center" colspan="4">The Starshatter computer game, the Starshatter Universe, and all related indicia are Copyright ©  1997-2003 Destroyer Studios. <br>All rights Reserved. <br>
-All Starshatter Dev. related material and indicia are Copyright © 1997-2003 Pheagey Grean / Lithium Effects All rights Reserved.
+		<td align="center" colspan="4">The Starshatter computer game, the Starshatter Universe, and all related indicia are Copyright &copy;  1997-2003 Destroyer Studios. <br>All rights Reserved. <br>
+All Starshatter Dev. related material and indicia are Copyright &copy; 1997-2003 Pheagey Grean / Lithium Effects All rights Reserved.
 		</td>
 	</tr>
 	<TR>
