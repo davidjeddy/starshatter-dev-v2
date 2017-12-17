@@ -1,8 +1,18 @@
 # StarShatter Dev Web Application
 
 ## Background
+The second iteration of a file repository site for the game `StarShatter`. This site is circa 2004 and was the final 
+web project before I entered College (University). Featured an improved UI, more secure members only area, a wider 
+option of source material categorization, and finally ported all the media from v1 to v2.
 
 ## Features
+ - Themed phpBB forum sub-system, backed by a MySQL data store solution
+ - Original Tutorials content
+ - Members only area to administrate account and submit user content
+ - Link library to other community portals
+ - Official SDK mirror
+ - Public release beta installers for StarShatter and the Magic 3D modelling application
+ - User generated content lists with downloads
 
 ## Goal
 

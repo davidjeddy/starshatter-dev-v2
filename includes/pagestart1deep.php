@@ -4,7 +4,7 @@
 <!--PHP links-->
 <?PHP include('../phpscripts/sitevariables.php'); ?>
 <!--Style Links-->
-<LINK TITLE="default" HREF="http://ssd.servehttp.com/ssdv2/css/default.css" TYPE="text/css" REL="stylesheet">
+<LINK TITLE="default" HREF="../css/default.css" TYPE="text/css" REL="stylesheet">
 <!--JS links-->
 <SCRIPT language="Javascript" TYPE="text/javascript" SRC="<?PHP echo $httproot ?>jscripts/imgpreload.js"></SCRIPT>
 <SCRIPT language="Javascript" TYPE="text/javascript" SRC="<?PHP echo $httproot ?>jscripts/imover.js"></SCRIPT>
