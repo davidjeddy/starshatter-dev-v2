@@ -15,6 +15,7 @@ option of source material categorization, and finally ported all the media from 
  - User generated content lists with downloads
 
 ## Goal
+N/A, this repository is for posterity and historical reference only.
 
 ## Requirements
  - Docker
