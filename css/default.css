@@ -1,0 +1,104 @@
+/* At-Rules */
+@charset "iso-8859-1";
+
+
+//body setup
+BODY {background-color:#000000;scrollbar-base-color:#eeee00;scrollbar-face-color:#eeee00;scrollbar-shadow-color:#a73a00;scrollbar-highlight-color:#ffffff;scrollbar-3dlight-color:#eeee00;scrollbar-darkshadow-color: #eeee00;scrollbar-track-color:#777700;scrollbar-arrow-color:#000000;}
+
+
+//table setups
+
+//links and fonts
+
+FONT {
+
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 5px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+
+
+
+FONT.minilinks {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+}
+
+FONT.sidenews {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+}
+
+FONT.title1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+
+FONT.default {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #666666;
+	text-decoration: none;
+}
+
+FONT.warning {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bold;
+	font-variant: normal;
+	text-transform: none;
+	color: #ff2222;
+	text-decoration: none;
+}
+
+//links top and bottom
+A.minilinks {font:10px verdana; color:#999999;}
+A:link.minilinks {font:10px verdana; color:#999999;}
+A:visited.minilinks {font:10px verdana; color:#999999;}
+/*A:hover.minilinks {font:10px verdana; color:#ffffff;}*/
+A:active.minilinks {font:10px verdana; color:#999999;}
+
+A.default{font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-style: normal;line-height: normal;font-weight: bold;font-variant: normal;text-transform: none;color: #666666;}
+A:link.default {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-style: normal;line-height: normal;font-weight: bold;font-variant: normal;text-transform: none;color: #666666;}
+A:visited.default {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-style: normal;line-height: normal;font-weight: bold;font-variant: normal;text-transform: none;color: #666666;}
+/*A:hover.default {font:10px verdana; color:#ffffff;}*/
+A:active.default {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 10px;font-style: normal;line-height: normal;font-weight: bold;font-variant: normal;text-transform: none;color: #666666;}
+
+.radiobutton{
+	margin: 2px;
+	padding: 2px;
+	border: 2px solid #ffff88;
+	background-color: #000000;
+}
+
+.input{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12pt;
+	font-style: normal;
+	line-height: normal;
+	font-weight: bolder;
+	font-variant: normal;
+	color: #FFFF00;
+	background-color: #000000;
+	border: 2px solid #ffff88;
+}

@@ -1,0 +1,2 @@
+&nbsp;&nbsp;&nbsp;8/4/2003 - 10:45am EST - Haha! Finally got milo to plan out some time to write a locale SDK. Read the word right from the horses mouth <a href="http://starshatter.com/forum/thread.php?topic=1764" target="_new" class="minilinks">here</a>.
+<br><br>

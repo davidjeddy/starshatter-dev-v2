@@ -1,0 +1,92 @@
+<HTML>
+<HEAD>
+<TITLE>Advanced Poll $pollvars[poll_version]</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=$lang[charset]">
+<STYLE TYPE="text/css">
+<!--
+a {text-decoration: none}
+.td1 {  font-family: "MS Sans Serif"; font-size: 10pt}
+.td2 {  font-family: "MS Sans Serif"; font-size: 9pt}
+a:hover {  color: #FF0033; text-decoration: underline}
+-->
+</STYLE>
+<SCRIPT language="Javascript">
+<!--
+function del_entry(entry) {
+ if (window.confirm("$lang[ComDel]")) {
+    window.location.href = "http://"+window.location.host+window.location.pathname+"?session=$auth[session]&uid=$auth[uid]&action=delete&poll_id=$poll_id&mess_id="+entry+"&no_cache="+Math.random()
+ }
+}
+// -->
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#3A6EA5" LINK="#000000" VLINK="#000000">
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="0" ALIGN="center" WIDTH="750">
+  <TR BGCOLOR="#C6C3C6" VALIGN="top">
+    <TD>
+      <TABLE WIDTH="750" BORDER="0" CELLSPACING="0" CELLPADDING="1" ALIGN="center">
+        <TR BGCOLOR="#400080">
+          <TD HEIGHT="20" CLASS="td2" BGCOLOR="#000084"><B><FONT COLOR="#FFFFFF">
+            &nbsp;Advanced Poll $pollvars[poll_version]</FONT></B></TD>
+          <TD HEIGHT="20" ALIGN="right" BGCOLOR="#000084">
+          <IMG SRC="$pollvars[base_gif]/min.gif" WIDTH="16" HEIGHT="14"><IMG SRC="$pollvars[base_gif]/max.gif" WIDTH="16" HEIGHT="14">&nbsp;<A HREF="admin_logout.php?session=$auth[session]&amp;uid=$auth[uid]" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/cross.gif" WIDTH="16" HEIGHT="14" BORDER="0" ALT="$lang[Logout]"></A></TD>
+        </TR>
+        <TR VALIGN="top">
+          <TD COLSPAN="2">
+            <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="1">
+              <TR>
+                <TD COLSPAN="7"><IMG SRC="$pollvars[base_gif]/top_line.gif" WIDTH="745" HEIGHT="3"></TD>
+              </TR>
+              <TR>
+                <TD ALIGN="center" ROWSPAN="2" WIDTH="5"><IMG SRC="$pollvars[base_gif]/v_line.gif" WIDTH="5" HEIGHT="50"></TD>
+                <TD ALIGN="center" WIDTH="120"><A HREF="index.php?session=$auth[session]&amp;uid=$auth[uid]&amp;action=show" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/index.gif" WIDTH="32" HEIGHT="32" BORDER="0" ALT="$lang[IndexTitle]"></A></TD>
+                <TD ALIGN="center" WIDTH="131"><A HREF="index.php?session=$auth[session]&amp;uid=$auth[uid]&amp;action=new" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/new.gif" WIDTH="32" HEIGHT="32" BORDER="0" ALT="$lang[NewTitle]"></A></TD>
+                <TD ALIGN="center" WIDTH="153"><A HREF="admin_settings.php?session=$auth[session]&amp;uid=$auth[uid]" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/settings.gif" WIDTH="32" HEIGHT="32" BORDER="0" ALT="$lang[SetTitle]"></A></TD>
+                <TD ALIGN="center" WIDTH="121"><A HREF="admin_templates.php?session=$auth[session]&amp;uid=$auth[uid]" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/templates.gif" WIDTH="32" HEIGHT="32" BORDER="0" ALT="$lang[Templates]"></A></TD>
+                <TD ALIGN="center" WIDTH="127"><A HREF="admin_password.php?session=$auth[session]&amp;uid=$auth[uid]" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/password.gif" WIDTH="32" HEIGHT="32" BORDER="0" ALT="$lang[PwdTitle]"></A></TD>
+                <TD ALIGN="center" WIDTH="89"><A HREF="admin_help.php?session=$auth[session]&amp;uid=$auth[uid]" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/howto.gif" WIDTH="32" HEIGHT="32" BORDER="0" ALT="$lang[Help]"></A></TD>
+              </TR>
+              <TR ALIGN="center" VALIGN="top">
+                <TD WIDTH="120" CLASS="td2">$lang[IndexTitle]</TD>
+                <TD WIDTH="131" CLASS="td2">$lang[NewTitle]</TD>
+                <TD WIDTH="153" CLASS="td2">$lang[SetTitle]</TD>
+                <TD WIDTH="121" CLASS="td2">$lang[Templates]</TD>
+                <TD WIDTH="127" CLASS="td2">$lang[PwdTitle]</TD>
+                <TD WIDTH="89" CLASS="td2">$lang[Help]</TD>
+              </TR>
+              <TR ALIGN="left">
+                <TD COLSPAN="7"><IMG SRC="$pollvars[base_gif]/top_line.gif" WIDTH="745" HEIGHT="3"></TD>
+              </TR>
+            </TABLE>
+            <TABLE BORDER="0" CELLSPACING="1" CELLPADDING="3" WIDTH="100%">
+              <TR> 
+                <TD CLASS="td1" COLSPAN="3" HEIGHT="30">
+                  <IMG SRC="$pollvars[base_gif]/h_line.gif" WIDTH="15" HEIGHT="18">&nbsp;$question&nbsp;<IMG SRC="$pollvars[base_gif]/h_line.gif" WIDTH="250" HEIGHT="18"></TD>
+              </TR>
+              <TR> 
+                <TD WIDTH="200" CLASS="td2">$lang[ComTotal]: <B><FONT COLOR="#006699">$total</FONT></B></TD>
+                <TD COLSPAN="2" CLASS="td2" ALIGN="right">$navigation</TD>
+              </TR>
+              <TR>
+                <TD WIDTH="200" BGCOLOR="#999999" CLASS="td2"><B>$lang[ComName]</B></TD>
+                <TD WIDTH="457" CLASS="td2" BGCOLOR="#999999" VALIGN="top"><B>$lang[IndexCom]</B></TD>
+                <TD WIDTH="66" CLASS="td2" BGCOLOR="#999999" VALIGN="top">&nbsp;</TD>
+              </TR>
+              
+$admin_comment_tr
+              
+              <TR BGCOLOR="#CCCCCC"> 
+                <TD WIDTH="200" CLASS="td2">$lang[SetEntry]: <B><FONT COLOR="#006699">$pollvars[entry_pp]</FONT></B></TD>
+                <TD COLSPAN="2" CLASS="td2" ALIGN="right">&nbsp;$navigation</TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+      </TABLE>
+    </TD>
+  </TR>
+</TABLE>
+<BR>
+<BR>
+</BODY>
+</HTML>

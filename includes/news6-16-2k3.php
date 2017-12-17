@@ -1,0 +1,3 @@
+&nbsp;&nbsp;&nbsp;6/16/2003 - 12:05pm EST - Woa! 500 visitors!! Dang! Things are picking up! Milo has been hand picking the beta testers now for a few days and I know a few of them (no I wont tell you who hey are- for there privacy). The <a href="http://www.members.shaw.ca/holdtheline/index.html" target="_new" class="minilinks">Babylon 5 : Hold the Line</a> MOD team is kickn' butt with there mod and is expecting it out soon! Keep your eyes open for it! This thing is sweet! easy score of 9/10  as it is now!<br>
+&nbsp;&nbsp;&nbsp;Things are picking up on the <a href="http://www.starshatter.com/forum" target="_new" class="minilinks">Official StarShatter Forum</A> also! almost double the number of posts per day plus new people have been finding latly also.
+<br><br>

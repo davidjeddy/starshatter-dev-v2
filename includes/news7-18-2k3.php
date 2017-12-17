@@ -1,0 +1,6 @@
+&nbsp;&nbsp;&nbsp;7/18/2003 - 1:30pm EST - Yea,yea I know; I've haven't updated i a week or so. I've been really bussy getting myself hurt at work :P. Anyways a quick recap: <br>&nbsp;&nbsp;&nbsp;milo's on vacation for hus 10th weddign anniversery and mldaalder  is working on a ship.def editor at the moment.
+<br>&nbsp;&nbsp;&nbsp;DamoclesX and I are working big time on the next B5 release: Title 'Between the Light and the Darkness'. It will focus on the EA civil war. This mod is already push over 100megs! Sweet ass models and high res textures are ganna make this MOd look like a retail game!
+<br>&nbsp;&nbsp;&nbsp;We are also working on a secret project that is comming together more and more by the day; even if I only get 2 hours a day to work on it!
+<br>&nbsp;&nbsp;&nbsp;If anyone knows hears anything good oing on give me a 'mail at <a href="starshatterdev@hotmail.com" target="new" class="minilinks">starshatterdev@hotmail.com</a>.
+<br>&nbsp;&nbsp;&nbsp; O, one more thing, SSDv2 is now at 1150-ish hits, so traffic has slowed down a bit and my server didn't melt! 16 Gigs have been transfered from my server since the B5 MOD was released. Good thingI dont pay for bandwidth...
+<br><Br>

@@ -1,0 +1,6 @@
+&nbsp;&nbsp;&nbsp;9/04/2003 - 10:50am EST - <br>Ok, Ive desided Im ganna do a few thing things around here while <a href="http://ssd.servehttp.com/ssc/" target="_new" class="minilinks">SSC</a> and the <A href="http://mods.firstones.com/holdtheline/" target="_new" class="minilinks">B5: hold the Line - Point of No Return</A> find good ,decent hosting. If anyone has any ideas get ahold of DamoclesX and let him know. Here's what we would need: PHP / MySqL (3 databases would be nice, thought 2 will work), unlimited FTP/POP3/SMTP, HTTPS, private areas allowed, andI'd like it to be an Apache server if possible.<br>
+&nbsp;&nbsp;&nbsp;Well Im guess this site gets about 20 hits a day. About 100 hits in 5 days = 20ish. So with that kinda traffic why the hell not add some stuff to SSDv2? I will.<br>
+&nbsp;&nbsp;&nbsp;Also, if anyone has any ships they'd like hosted here, please feel more than welcome to uploaded them via the Secure Zone. I curisouse to see just how well my code works.<br>
+&nbsp;&nbsp;&nbsp;Once again thanks for stopping by, and if you have any ideas or suggestions post'em over in the forum. Thanks; the Managment.<br><br>
+&nbsp;&nbsp;&nbsp;O, and I fixed the B5: HtL pics that are below.
+<br>

@@ -1,0 +1,2 @@
+&nbsp;&nbsp;&nbsp;5/19/2003 - 2:00pm EST - Sorry I haven't updated the past few days I've been working on a SS MOD website (<a href="http://ssd.servehttp.com/corent/" target="_new" class="minilinks">Cor. Ent. / Starcraft to starshatter</a>) and working. I got a job that is 6 - 10Hr days at the moment so I only have like 4-5 hours of free time a day now. Anyways, not to worry I'm still here.
+<br><br><br>

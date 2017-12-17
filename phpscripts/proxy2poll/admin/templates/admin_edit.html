@@ -1,0 +1,146 @@
+<HTML>
+<HEAD>
+<TITLE>Advanced Poll $pollvars[poll_version]</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=$lang[charset]">
+<STYLE TYPE="text/css">
+<!--
+.td1 {  font-family: "MS Sans Serif"; font-size: 10pt}
+.td2 {  font-family: "MS Sans Serif"; font-size: 9pt}
+.input {  font-family: "MS Sans Serif"; font-size: 9pt; height: 20px; width: 350px}
+.exp_input {  font-family: "MS Sans Serif"; font-size: 9pt; height: 20px; width: 25px}
+.button {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt}
+.input2 {  font-family: "MS Sans Serif"; font-size: 9pt; height: 20px; width: 80px}
+.select {  font-family: Arial, Helvetica, sans-serif; font-size: 9pt}
+a:hover {  color: #FF0033; text-decoration: underline}
+-->
+</STYLE>
+<SCRIPT language="JavaScript">
+<!--
+blank = new Image(); blank.src = "$pollvars[base_gif]/blank.gif";
+$java_script
+
+function ChangeBar(sel,img) {
+  eval("document.bar"+img+".src="+sel+".src");
+}
+
+function ResetPoll() {
+  for (i=4; i<document.forms[0].elements.length-6; i+=3) {
+   document.forms[0].elements[i].value = '0';
+  }
+}
+
+function CheckDays() {
+  if(!(document.poll.exp_time.value >= 0)) {
+    alert("$lang[SetEmpty]");
+    document.poll.exp_time.focus();
+    return false;
+  }
+}
+//-->
+</SCRIPT>
+</HEAD>
+<BODY BGCOLOR="#3A6EA5" LINK="#000000" VLINK="#000000">
+<TABLE BORDER="1" CELLSPACING="0" CELLPADDING="0" ALIGN="center" WIDTH="750">
+  <TR BGCOLOR="#C6C3C6" VALIGN="top">
+    <TD>
+      <TABLE WIDTH="750" BORDER="0" CELLSPACING="0" CELLPADDING="1" ALIGN="center">
+        <TR BGCOLOR="#400080">
+          <TD HEIGHT="20" CLASS="td2" BGCOLOR="#000084"><B><FONT COLOR="#FFFFFF">
+            &nbsp;Advanced Poll $pollvars[poll_version]</FONT></B></TD>
+          <TD HEIGHT="20" ALIGN="right" BGCOLOR="#000084">
+          <IMG SRC="$pollvars[base_gif]/min.gif" WIDTH="16" HEIGHT="14"><IMG SRC="$pollvars[base_gif]/max.gif" WIDTH="16" HEIGHT="14">&nbsp;<A HREF="admin_logout.php?session=$auth[session]&amp;uid=$auth[uid]" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/cross.gif" WIDTH="16" HEIGHT="14" BORDER="0" ALT="$lang[Logout]"></A></TD>
+        </TR>
+        <TR VALIGN="top">
+          <TD COLSPAN="2">
+            <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="1">
+              <TR>
+                <TD COLSPAN="7"><IMG SRC="$pollvars[base_gif]/top_line.gif" WIDTH="745" HEIGHT="3"></TD>
+              </TR>
+              <TR>
+                <TD ALIGN="center" ROWSPAN="2" WIDTH="5"><IMG SRC="$pollvars[base_gif]/v_line.gif" WIDTH="5" HEIGHT="50"></TD>
+                <TD ALIGN="center" WIDTH="120"><A HREF="index.php?session=$auth[session]&amp;uid=$auth[uid]&amp;action=show" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/index.gif" WIDTH="32" HEIGHT="32" BORDER="0" ALT="$lang[IndexTitle]"></A></TD>
+                <TD ALIGN="center" WIDTH="131"><A HREF="index.php?session=$auth[session]&amp;uid=$auth[uid]&amp;action=new" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/new.gif" WIDTH="32" HEIGHT="32" BORDER="0" ALT="$lang[NewTitle]"></A></TD>
+                <TD ALIGN="center" WIDTH="153"><A HREF="admin_settings.php?session=$auth[session]&amp;uid=$auth[uid]" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/settings.gif" WIDTH="32" HEIGHT="32" BORDER="0" ALT="$lang[SetTitle]"></A></TD>
+                <TD ALIGN="center" WIDTH="121"><A HREF="admin_templates.php?session=$auth[session]&amp;uid=$auth[uid]" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/templates.gif" WIDTH="32" HEIGHT="32" BORDER="0" ALT="$lang[Templates]"></A></TD>
+                <TD ALIGN="center" WIDTH="127"><A HREF="admin_password.php?session=$auth[session]&amp;uid=$auth[uid]" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/password.gif" WIDTH="32" HEIGHT="32" BORDER="0" ALT="$lang[PwdTitle]"></A></TD>
+                <TD ALIGN="center" WIDTH="89"><A HREF="admin_help.php?session=$auth[session]&amp;uid=$auth[uid]" CLASS="minilinks"><IMG SRC="$pollvars[base_gif]/howto.gif" WIDTH="32" HEIGHT="32" BORDER="0" ALT="$lang[Help]"></A></TD>
+              </TR>
+              <TR ALIGN="center" VALIGN="top">
+                <TD WIDTH="120" CLASS="td2">$lang[IndexTitle]</TD>
+                <TD WIDTH="131" CLASS="td2">$lang[NewTitle]</TD>
+                <TD WIDTH="153" CLASS="td2">$lang[SetTitle]</TD>
+                <TD WIDTH="121" CLASS="td2">$lang[Templates]</TD>
+                <TD WIDTH="127" CLASS="td2">$lang[PwdTitle]</TD>
+                <TD WIDTH="89" CLASS="td2">$lang[Help]</TD>
+              </TR>
+              <TR ALIGN="left">
+                <TD COLSPAN="7"><IMG SRC="$pollvars[base_gif]/top_line.gif" WIDTH="745" HEIGHT="3"></TD>
+              </TR>
+            </TABLE>
+            <FORM METHOD="post" ACTION="$pollvars[SELF]" NAME="poll">
+              <TABLE BORDER="0" CELLSPACING="0" CELLPADDING="2" ALIGN="center" WIDTH="90%">
+                <TR>
+                  <TD COLSPAN="5" CLASS="td1" HEIGHT="30"><IMG SRC="$pollvars[base_gif]/h_line.gif" WIDTH="15" HEIGHT="18">&nbsp;
+                    $message&nbsp;<IMG SRC="$pollvars[base_gif]/h_line.gif" WIDTH="380" HEIGHT="18">
+                  </TD>
+                </TR>
+                <TR>
+                  <TD WIDTH="20%" CLASS="td1">$lang[IndexQuest]</TD>
+                  <TD WIDTH="49%">
+                    <INPUT TYPE="text" NAME="question" CLASS="input" SIZE="35" VALUE="$question">
+                  </TD>
+                  <TD WIDTH="11%" CLASS="td2">
+                    <SELECT NAME="status" CLASS="select">
+                      <OPTION VALUE="0" $STATUS_0>$lang[EditOff]</OPTION>
+                      <OPTION VALUE="1" $STATUS_1>$lang[EditOn]</OPTION>
+                      <OPTION VALUE="2" $STATUS_2>$lang[EditHide]</OPTION>
+                    </SELECT>
+                  </TD>
+                  <TD COLSPAN="2" CLASS="td2">
+                    <SELECT NAME="logging" CLASS="select">
+                      <OPTION VALUE="0" $LOGGING_0>$lang[EditLgOff]</OPTION>
+                      <OPTION VALUE="1" $LOGGING_1>$lang[EditLgOn]</OPTION>
+                    </SELECT>
+                  </TD>
+                </TR>
+
+$poll_options
+
+                <TR>
+                  <TD WIDTH="20%">&nbsp;</TD>
+                  <TD COLSPAN="4" HEIGHT="35" CLASS="td2" VALIGN="top">$lang[IndexExp]: <INPUT TYPE="text" NAME="exp_time" CLASS="exp_input" SIZE="3" VALUE="$expiration"> $lang[IndexDays]                
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $lang[IndexNever] <INPUT TYPE="checkbox" NAME="expire" VALUE="0" $POLL_EXPIRE>
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<IMG SRC="$pollvars[base_gif]/point2.gif" WIDTH="9" HEIGHT="9">$lang[EditDel]
+                </TR>
+                <TR>
+                  <TD WIDTH="20%">&nbsp;</TD>
+                  <TD COLSPAN="4" HEIGHT="35" CLASS="td2" VALIGN="top">
+                    <IMG SRC="$pollvars[base_gif]/h_line.gif" WIDTH="30" HEIGHT="18">
+                    <A HREF="$pollvars[SELF]?session=$auth[session]&uid=$auth[uid]&amp;action=extend&amp;poll_id=$poll_id" CLASS="minilinks">$lang[EditAdd]</A> <IMG SRC="$pollvars[base_gif]/h_line.gif" WIDTH="50" HEIGHT="18">
+                    <A HREF="javascript:ResetPoll()" CLASS="minilinks">$lang[EditReset]</A> <IMG SRC="$pollvars[base_gif]/h_line.gif" WIDTH="30" HEIGHT="18">
+                    &nbsp;&nbsp;&nbsp;$lang[EditCom]&nbsp;<INPUT TYPE="checkbox" NAME="comments" VALUE="1" $POLL_COMMENTS></TD>
+                </TR>
+                <TR>
+                  <TD WIDTH="20%">&nbsp;</TD>
+                  <TD COLSPAN="4">
+                    <INPUT TYPE="submit" VALUE="$lang[EditSave]" CLASS="button" onClick="return CheckDays()">
+                    <INPUT TYPE="reset" VALUE="$lang[FormUndo]" CLASS="button">
+                    <INPUT TYPE="hidden" NAME="action" VALUE="save">
+                    <INPUT TYPE="hidden" NAME="timestamp" VALUE="$timestamp">
+                    <INPUT TYPE="hidden" NAME="poll_id" VALUE="$poll_id">
+                    <INPUT TYPE="hidden" NAME="session" VALUE="$auth[session]">
+                    <INPUT TYPE="hidden" NAME="uid" VALUE="$auth[uid]">
+                  </TD>
+                </TR>
+              </TABLE>
+            </FORM>
+          </TD>
+        </TR>
+      </TABLE>
+    </TD>
+  </TR>
+</TABLE>
+<BR>
+<BR>
+</BODY>
+</HTML>

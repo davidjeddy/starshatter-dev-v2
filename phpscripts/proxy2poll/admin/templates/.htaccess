@@ -1,0 +1,12 @@
+<FILES .HTACCESS>
+order allow,deny
+deny from all
+</FILES>
+
+ErrorDocument 400 /ssdv2/errordocs/defaulterror.php
+ErrorDocument 401 /ssdv2/errordocs/defaulterror.php
+ErrorDocument 403 /ssdv2/errordocs/defaulterror.php
+ErrorDocument 404 /ssdv2/errordocs/defaulterror.php
+ErrorDocument 500 /ssdv2/errordocs/defaulterror.php
+
+IndexIgnore *

@@ -1,0 +1,2 @@
+&nbsp;&nbsp;&nbsp;4/23/2003 - 10:30pm EST - Well, I got more of the scripting done now! I ran into a snag on some of it but ot it worked out now. Gana have a few people test the site out then it'll go public. Hopfully this weekend (crosses fingers.)
+<br><br>

@@ -1,0 +1,2 @@
+&nbsp;&nbsp;&nbsp;4/30/2003 - 6:00pm EST -T minus 24Hrs. before SSDv2 goes Live. I tweaked some of the Secure Zone code and added a place in the Communications area for people to add links and stuff. Also, I added he users that were a part of the 1st SSD and uploaded there files so I'l have <i>some</i> content when SSDv2 goes live. Anyways, the countdown continues.
+<br><br>

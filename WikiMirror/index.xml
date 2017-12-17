@@ -1,0 +1,275 @@
+<?xml version="1.0" ?>
+<item id="FrontPage">
+<description>
+<![CDATA[ 
+                            <p>Welcome to the unofficial Starshatter Wiki.
+The aim of this page is to easily add collected information about <a href="http://xao.freezope.org/wikis/starshatter/StarShatter" title="" style="background-color:;">StarShatter</a> as found on the forums (<a href="http://www.starshatter.com/forum/">http://www.starshatter.com/forum/</a>) - although the forum <u>can</u> be searched using google (just use the "site:starshatter.com" constraint) it might be useful to just jot things down in here.</p>
+<p>Sample subjects:</p>
+
+<ul>
+<li><a href="http://xao.freezope.org/wikis/starshatter/GameEngine" title="" style="background-color:;">GameEngine</a></li>
+<li><a href="http://xao.freezope.org/wikis/starshatter/GameModding" title="" style="background-color:;">GameModding</a></li>
+<li>GameUniverse<a class="new" href="http://xao.freezope.org/wikis/starshatter/FrontPage/editform?page=GameUniverse" title="create this page">?</a></li>
+<li><a href="http://xao.freezope.org/wikis/starshatter/FAQ" title="" style="background-color:;">FAQ</a></li>
+
+</ul>
+<p>Check out the <a href="http://xao.freezope.org/wikis/starshatter/OriginalFrontPage" title="" style="background-color:;">OriginalFrontPage</a> for help and such.
+As well as <a href="http://xao.freezope.org/wikis/starshatter/RecentChanges" title="" style="background-color:;">RecentChanges</a> for a list of pages that have recently been modified.</p>
+
+            
+            
+
+  ]]> 
+  </description>
+  </item>
+<item id="FAQ">
+<description>
+<![CDATA[ 
+                            <p>Several frequently asked questions are collected and linked to directly from here.</p>
+
+<ul>
+<li><a href="http://xao.freezope.org/wikis/starshatter/UsingDegreesInsteadOfRadians" title="" style="background-color:;">UsingDegreesInsteadOfRadians</a> ( info by: <a href="http://xao.freezope.org/wikis/starshatter/Milo" title="" style="background-color:;">milo</a> )</li>
+<li><a href="http://xao.freezope.org/wikis/starshatter/CommonPitFalls" title="" style="background-color:;">CommonPitFalls</a>, things about .def files that can have you searching for weeks and crying like a baby.</li>
+
+</ul>
+
+            
+            
+
+  ]]> 
+  </description>
+  </item>
+<item id="CommonPitFalls">
+<description>
+<![CDATA[ 
+                            <p><strong>Simple things that make your head go "bonk" on your desk.</strong></p>
+<p>The identifier tokens are case sensitive (e.g. "class" not "Class") ( info by: <a href="http://xao.freezope.org/wikis/starshatter/Pheagey" title="" style="background-color:;">Pheagey</a> )</p>
+
+            
+            
+
+  ]]> 
+  </description>
+  </item>
+<item id="Pheagey">
+<description>
+<![CDATA[ 
+                            <p>Owner and maintainer of the <a href="http://xao.freezope.org/wikis/starshatter/StarShatter" title="" style="background-color:;">StarShatter</a> Dev site - <a href="index.php">index.php</a> - host for many <a href="http://xao.freezope.org/wikis/starshatter/StarShatter" title="" style="background-color:;">StarShatter</a> [mods]<a class="new" href="http://xao.freezope.org/wikis/starshatter/Pheagey/editform?page=mods" title="create this page">?</a> and [tutorials]<a class="new" href="http://xao.freezope.org/wikis/starshatter/Pheagey/editform?page=tutorials" title="create this page">?</a>.</p>
+
+            
+            
+
+  ]]> 
+  </description>
+  </item>
+<item id="GameEngine">
+<description>
+<![CDATA[ 
+                            <p>Information specific to how the game engine handles events.</p>
+
+<ul>
+<li><a href="http://xao.freezope.org/wikis/starshatter/SystemDamage" title="" style="background-color:;">SystemDamage</a> ( info by: <a href="http://xao.freezope.org/wikis/starshatter/Milo" title="" style="background-color:;">milo</a> )</li>
+
+</ul>
+
+            
+            
+
+  ]]> 
+  </description>
+  </item>
+<item id="SystemDamage">
+<description>
+<![CDATA[ 
+                            <p><strong>How the game handles system damage.</strong></p>
+<p>All ship systems are made of components that provide specific benefits (efficiency, safety, or stability). When a system takes damage, the damage points are applied randomly to one or more components in the system. The effect depends on what the damaged components did for the system.</p>
+<p>For example, a fusion reactor has the following components:</p>
+
+<ul>
+<li>Reactor Core     (efficiency, safety)</li>
+<li>Fuel System      (efficiency)</li>
+<li>Presequencer     (efficiency)</li>
+<li>Radiation Shield (safety)</li>
+<li>Power Regulator  (stability)</li>
+<li>Heat Exchanger   (safety, stability)</li>
+<li>Coolant Tanks    (safety, stability)</li>
+
+</ul>
+<p>If the fuel system is damaged, the reactor will produce less power. If the radiation shield is damaged, the reactor can still produce the full rating of power, but the maximum safe rating will go down. If the power regulator is damaged, the reactor will produce approximately the full amount of power, but there will be spikes and brown-outs that can damage computer systems drawing power from the reactor. If a safety component has been damaged and you continue to run the reactor at full (or emergency) capacity, the reactor will slowly damage itself due to the unsafe operation. You can generally get by for thirty seconds on emergency override before the system starts to break down.</p>
+<p>Each component takes a certain amount of time to repair, and a different amount of time to replace (assuming that there is a spare available - you can't replace the entire reactor core while underway). When a system is being repaired, all of the damaged components are worked on simultaneously. So if one component takes one minute to repair and another takes two minutes, the system can be repaired in two minutes because that is the longest repair time. The damage control teams can only work on two systems at the same time. The other damaged systems are prioritized and repaired when the damage control teams finish with the systems they are currently working on.</p>
+<p>All of the systems are "hot fix" - they continue to function even while they are being repaired. However, the components being replaced or repaired deliver only 50% of their benefit during maintenance. Replacing a component with a spare fully restores its functionality. Repairing a damaged component can only bring back up to 50% of its functionality. Components can be repaired more than once if the first repair doesn't do the job. If the component is severely damaged, repairing it (instead of replacing it outright) requires the engineer to jerry-rig the assembly. While this restores some functionality, it also reduces the safety and stability of the system as a whole.</p>
+<p>There are also system-specific damage effects. For example, reactors consume fuel based on their overall efficiency rating. If a fuel system is damaged, the reactor will need to burn more fuel to produce the same amount of power. Reactors that are below 40% overall availability leak fuel.</p>
+
+            
+            
+
+  ]]> 
+  </description>
+  </item>
+<item id="GameModding">
+<description>
+<![CDATA[ 
+                            <p>Information on creating game content (mods).</p>
+
+<ul>
+<li><a href="http://xao.freezope.org/wikis/starshatter/DefFiles" title="" style="background-color:;">DefFiles</a>, .def file syntax, parameters and (possibly) undocumented features.</li>
+<li>[3D Models]<a class="new" href="http://xao.freezope.org/wikis/starshatter/GameModding/editform?page=3D%20Models" title="create this page">?</a></li>
+
+</ul>
+
+            
+            
+
+  ]]> 
+  </description>
+  </item>
+<item id="DefFiles">
+<description>
+<![CDATA[ 
+                            <p>Information on .def file format, syntax and parameters.</p>
+
+<ul>
+<li><a href="http://xao.freezope.org/wikis/starshatter/StarSystems" title="" style="background-color:;">StarSystems</a> ( info by: <a href="http://xao.freezope.org/wikis/starshatter/Milo" title="" style="background-color:;">milo</a> )</li>
+
+</ul>
+<p><br>
+<br>
+<br>
+<br></p>
+
+<ul>
+<li><a href="http://xao.freezope.org/wikis/starshatter/CommonPitFalls" title="" style="background-color:;">CommonPitFalls</a>, or "things to check if your .def file is broken".</li>
+<li><a href="http://xao.freezope.org/wikis/starshatter/UsingDegreesInsteadOfRadians" title="" style="background-color:;">UsingDegreesInsteadOfRadians</a> ( info by: <a href="http://xao.freezope.org/wikis/starshatter/Milo" title="" style="background-color:;">milo</a> )</li>
+
+</ul>
+
+            
+            
+
+  ]]> 
+  </description>
+  </item>
+<item id="StarSystems">
+<description>
+<![CDATA[ 
+                            <p><strong>How to create star systems.</strong></p>
+<p>Create a directory in your Mods folder called Galaxy. Inside the Galaxy folder, you will create one sub-folder for each star system. In the main Galaxy folder, you will need a def file listing all of the systems in your mod. You can call it anything you like. The format of the Galaxy file is:</p>
+<p><pre>
+GALAXY</p>
+<p>system: { loc: (52.0, 51.0,  1.0), class: G, iff: 1, name: Earth }</p>
+<p>star:   { loc: (56.0, 56.0,  1.0), class: M, name: "A" }
+star:   { loc: (43.5, 55.0,  1.0), class: M, name: "B" }
+</pre></p>
+<p>In the galaxy.def file, systems are places you can visit and stars are background stars that show up on the galaxy map, but that you can't actually go to.</p>
+<p>The class parameter is the main-sequence stellar class of the star or system. Values can be: O B A F G K M (from blue-white super giant to red dwarf). You can also use R W and Z for red giant, white dwarf, and black hole.</p>
+<p>The loc vector is the location of the system on the galactic map. The x and y elements of the vector must be greater than +10 or less than -10 so that they don't interfere with the main game galaxy.</p>
+<p>The name parameter is the name of the system or star on the map. For systems, this is also the name of the folder that contains all of the planetary data for the system.</p>
+<p>Each star system folder must contain a system def file with the same name as the system. The Earth system must contain a file with this path: \Mods\Galaxy\Earth\Earth.def</p>
+<p><pre>
+STARSYSTEM</p>
+<p>name:       Athenar</p>
+<p>/*************************************/</p>
+<p>sky:        {
+   nebula:     "Nebula6.mag",
+   poly_stars: "stars.mag"
+   }</p>
+<p>stars:      500
+dust:       300</p>
+<p>/*************************************/</p>
+<p>ambient:    (16, 17, 26)</p>
+<p>star:        {
+   name:    Athenar,
+   image:   "Suns/G3.pcx",
+   tscale:  6,
+   radius:  16e8,
+   mass:    2e30,
+   light:   1.6e11,
+   color:   (255, 250, 230),// - standard yellow
+   back:    ( 50,  50,  90) // - nebula6
+}</p>
+<p>planet:     {
+   name:    Athenar,
+   image:   "Athenar/athenar_lo.pcx",
+   high_res:"Athenar/athenar_hi.pcx",
+   radius:  5.72e6,
+   mass:    3.53e24,
+   atmosphere: (80,100,150),
+   orbit:   1.95e11,
+}</p>
+<p>region:     {
+   name:    Athenar,
+   radius:  480e3,
+   grid:    20e3,
+   orbit:   18e6,
+   inclination: 0.4
+}</p>
+<p>moon:       {
+   name:    Nike,
+   image:   "Jarnell/lanos_lo.pcx",
+   high_res:"Jarnell/lanos_hi.pcx",
+   radius:  0.72e6,
+   mass:    4.1e22,
+   orbit:   81e6
+}</p>
+<p>planet:     {
+   name:    Pallas,
+   image:   "Athenar/pallas_lo.pcx",
+   high_res:"Athenar/pallas_hi.pcx",
+   radius:  3.35e6,
+   mass:    2.52e24,
+   atmosphere: (80,120,150),
+   orbit:   4.25e11,
+}</p>
+<p>region:     {
+   name:    Pallas,
+   radius:  480e3,
+   grid:    20e3,
+   orbit:   19e6,
+   inclination: 0.2,
+   link:    Navara, // Janus
+   link:    Dawn,   // Jarnell
+}
+</pre></p>
+
+            
+            
+
+  ]]> 
+  </description>
+  </item>
+<item id="UsingDegreesInsteadOfRadians">
+<description>
+<![CDATA[ 
+                            <p><strong>How to use degrees instead of radians.</strong></p>
+<p>There is a top level attribute degrees of type boolean that controls whether angular values in the file are entered in degrees or radians.  So if you put <strong>degrees: true</strong> near the top of the file, you can use degrees for all angles through the rest of the file.</p>
+
+            
+            
+
+  ]]> 
+  </description>
+  </item>
+<item id="StarShatter">
+<description>
+<![CDATA[ 
+                            <p>It's <a href="http://xao.freezope.org/wikis/starshatter/Milo" title="" style="background-color:;">milo</a>'s game.
+Full information on the game can be found here: <a href="http://www.starshatter.com/game.htm">http://www.starshatter.com/game.htm</a></p>
+
+            
+            
+
+  ]]> 
+  </description>
+  </item>
+<item id="milo">
+<description>
+<![CDATA[ 
+                            <p>John DiCamillo<a class="new" href="http://xao.freezope.org/wikis/starshatter/Milo/editform?page=DiCamillo" title="create this page">?</a> - <a href="http://xao.freezope.org/wikis/starshatter/StarShatter" title="" style="background-color:;">StarShatter</a>'s creator and developer and designer and content creator and...</p>
+
+            
+            
+
+  ]]> 
+  </description>
+  </item>
+  </StarShatterWiki>

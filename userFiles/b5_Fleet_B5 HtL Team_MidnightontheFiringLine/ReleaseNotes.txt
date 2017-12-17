@@ -1,0 +1,36 @@
+Model / MOD:	B5 : Hold the Line - Release 1 (beta) - Narn / Centari
+Modeller(s):	Pheagey / DamoclesX / Executioner_de
+eMail(s):	p_grean@hotmail.com / damoclesx@hotmail.com / executioner_de@yahoo.de
+website(s):	http://www.members.shaw.ca/holdtheline/index.html
+			
+Conversion / Scaling:		DamoclesX / Pheagey / Executioner_de
+NAV & HUD icons:		Pheagey
+Hard / Damage Points:		DamoclesX
+Texturing:			DamoclesX
+2ndary Texturing:		DamoclesX
+Debris MAG's:			DamoclesX
+Mission(s) / Campagin(s):	DamoclesX / Pheagey
+Testing / Debugging:		DamoclesX / Pheagey / Executioner_de
+
+*********************************************
+Copyright and Distribution Permissions 
+-------------------------------------- 
+---StarShatter---
+THIS PATCH IS NOT MADE, DISTRIBUTED, OR SUPPORTED BY John DiCamillo / Starshatter Team.
+
+Copyright notices: 
+
+StarSahtter (and the various logo devices used in them) are copyright of John DiCamillo / Starshatter Team, as are the characters, related images, and sound from the productions.
+
+LEGAL STUFF: These files are not supported or affiliated with John DiCamillo / Starshatter Team. While most who have used these files have had no problems, we will not be held accountable for any damage done to your computer by use of these files or techniques. USE AT YOUR OWN RISK! This file is freeware. IT IS NOT TO BE SOLD, tHIS FILE MUST BE A WITH IT AT ALL TIMES!!!
+
+SOFTWARE USE LIMITATIONS AND LIMITED LICENSE 
+Any StarShatter mission / 3d mesh / texture / character / etc (each, a "Mission", and collectively, "Missions") created using the StarShatter API ("SS Mission API") is intended solely for your personal, noncommercial home entertainment use. You may not reverse engineer, or disassemble SS Mission API or any Mission, except as permitted by law. John DiCamillo / Starshatter Team ("milo") retains all rights and title in SS Mission API and the Missions including all intellectual property rights embodied therein and derivatives thereof. SS Mission API and the Missions, including, without limitation, all code, data structures, characters, images, sounds, text, screens, game play, derivative works and all other elements may not be copied (except as provided below), sold, rented, leased, distributed (except as provided below), used on pay-per-play, coin-op or other for-charge basis, or for commercial purpose. You may make copies of SS Mission API and any Mission for your personal, noncommercial  home entertainment use and to give to friends and acquaintances on a no cost, noncommercial basis. This limited right to copy or provide public access to the SS Mission API and the Missions expressly excludes any copying, access or distribution of SS Mission API and the Missions on a commercial basis, including, without limitation, bundling SS Mission API or any Mission with any other product or service, selling SS Mission API or any Mission, and any giveaway in connection with another product or service. Any permissions granted herein are provided on a temporary basis and can be withdrawn by milo at any time. All rights not expressly granted herein are reserved.
+
+milo DISCLAIM ALL WARRANTIES, EXPRESS OR IMPLIED, RELATING TO SSMISSION API AND THE MISSIONS (INCLUDING WITHOUT LIMITATION, MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT), AND milo SHALL HAVE ANY RESPONSIBILITY OR LIABILITY REGARDING SS MISSION API AND THE MISSIONS, INCLUDING, WITHOUT LIMITATION, ANY RESPONSIBILITY OR LIABILITY REGARDING USE OR OPERABILITY OF SS MISSION API AND THE MISSIONS. YOU ASSUME ALL RISK OF LOSS IN CHOOSING TO USE SS MISSION API AND THE MISSIONS. 
+
+SS Mission API and all Missions Copyright © 1997-2002 by John DiCamillo. All rights Reserved. 
+
+---Babylon 5---
+All material is cpyrighted by there owners.
+

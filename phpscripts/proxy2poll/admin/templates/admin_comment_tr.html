@@ -1,0 +1,18 @@
+   <TR>
+     <TD WIDTH="200" BGCOLOR="#CCCCCC" VALIGN="top"> 
+       <TABLE WIDTH="200" BORDER="0" CELLSPACING="0" CELLPADDING="3">
+         <TR> 
+           <TD><IMG SRC="$pollvars[base_gif]/host.gif" WIDTH="16" HEIGHT="15">
+               <IMG SRC="$image" WIDTH="16" HEIGHT="16" ALT="{browser}">
+                 $email    
+          </TD>
+         </TR>
+         <TR><TD CLASS="td2"><FONT COLOR="#990033">{name}</FONT></TD></TR>
+         <TR><TD CLASS="td2">{host}</TD></TR>
+       </TABLE>
+     </TD>
+     <TD WIDTH="457" CLASS="td2" BGCOLOR="#E6E6E6" VALIGN="top"><IMG SRC="$pollvars[base_gif]/post.gif" WIDTH="9" HEIGHT="9">$lang[ComPost]: $date 
+       <HR SIZE="1" NOSHADE>{message}
+     </TD>
+     <TD WIDTH="66" CLASS="td2" ALIGN="center"><A HREF="javascript:del_entry({com_id})" CLASS="minilinks">$lang[IndexDel]</A></TD>
+   </TR>

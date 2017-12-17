@@ -1,0 +1,3 @@
+&nbsp;&nbsp;&nbsp;5/10/2003 - 12:10am EST - Ha ha! Got my new server machine online! everythig should be good now and I can get back to testing SS game stuff; as always if you think there is something wrong or something that could be improved please drop me aline anytime @ <a href="starshatterdev@hotmail.com" target="_new" class="minilinks">starshatterdev@hotmail.com</a>.<br>
+&nbsp;&nbsp;&nbsp;Also milo started a thread about what made FreeSpace / FreeSpace 2 enjoyable. Check it out <a href="http://starshatter.com/forum/thread.php?topic=1554" target="_new" class="minilinks">Here</a>.
+<br><br><br>

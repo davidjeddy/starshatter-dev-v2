@@ -1,0 +1,3 @@
+&nbsp;&nbsp;&nbsp;7/6/2003 - 2:10am EST - Holy crap! 200 hits in a week and a half! Guess Starshatter is really pickin up come momentum!<br>
+&nbsp;&nbsp;&nbsp;1:00PM - HOLY SHIT! I just checked my server logs and it tells me some 38-40 peopel have downloaded the B5 MOD. The sad part some 150+ have had incomplete downloads. Now under such strain of running on a 500AMD/128RAM/Cable onnection the download will NOT be super fast. Hell SSDv2 is luck to load at all at the moment! So please people be patient with the download. As I talked to DamoclesX he said "...I did't there was THIS much intrest in it. Sorry dude...". So, remember, Im doin' this for free.
+<br><Br>

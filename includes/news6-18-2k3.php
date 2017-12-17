@@ -1,0 +1,2 @@
+&nbsp;&nbsp;&nbsp;6/18/2003 - 4:15am EST - Recent Server Outage: Due to happinings out of my control my server was down from approx. 9pm last night till 10:30am EST. I appoligize for any inconveniances this may have coused.
+<br><br>

@@ -1,0 +1,3 @@
+&nbsp;&nbsp;&nbsp;8/11/2003 - 10:15am EST - The next round of beta testing has begun; milo added more features and peope into the closed beta team and almost all the added/fixed features are for multiplayer! Check out <a href="http://starshatter.com/forum/thread.php?topic=1770&page=0" class="minilinks" target="_new">milo's own post here</a>.<br>
+&nbsp;&nbsp;&nbsp;O, and SSDv2 is now up toalmost 1600 visitors!. thats an average of 400 a month or 13 a day. that may not sem like alot but to me and my lil' home server; yea its alot! So I'd like to thank everyone for stopping by.
+<br><Br>

@@ -1,0 +1,3 @@
+&nbsp;&nbsp;&nbsp;9/18/2003 - 10:50am EST - <br>Well, thngs are going. Im been working on my mission w/ voice overs and music. Some Star Trek fans my recongize the mission setup, it really interesting some of the things that can be done w/ the starshatter Trigger setup.<br>
+&nbsp;&nbsp;&nbsp;Also, I've been doing some drawings of ships and what not so as soon as Iget some extra time i've been working on those.<br>
+&nbsp;&nbsp;&nbsp;Has anyone uploaded any mods?<br><br>

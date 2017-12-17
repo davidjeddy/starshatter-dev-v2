@@ -1,0 +1,1 @@
+<!--goduranus - Goliath --><?PHP include ('userFiles/original_Cruiser_goduranus_Goliath.php'); ?><!----><!--goduranus - Herrenvolk --><?PHP include ('userFiles/original_Cruiser_goduranus_Herrenvolk.php'); ?><!---->
