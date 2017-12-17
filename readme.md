@@ -1,22 +1,10 @@
 # StarShatter Dev Web Application
 
 ## Background
-This site was put together around 2002 as a file repository for modifications for a game titled `StarShatter`.
-This site and the community that eventually built up around its successor where the initiators to me to consider
-a career in software engineering, specifically web technologies.
 
 ## Features
- - Forum system based on original StarShatter forums code base
- - Original Tutorials content
- - Members only area to administrate account and submit user content
- - Link library to other community portals
- - Official SDK mirror
- - Public release beta installers for StarShatter and the Magic 3D modelling application
- - User generated content lists with downloads
- 
+
 ## Goal
-Simply to keep some of the original projects that got me into web technologies alive and viewable for the public. Also
-gives me a body of content to try new system architecture with.
 
 ## Requirements
  - Docker
@@ -29,16 +17,16 @@ None; this project repository is for historic reference only.
 Clone the repository locally:
 ```
 cd /project/root/parent
-git clone https://github.com/davidjeddy/starshatter-dev.git
-cd ./starshatter-dev
+git clone https://github.com/davidjeddy/starshatter-dev-v2.git
+cd ./starshatter-dev-v2
 ```
 
 Then build and start the image via:
 
 ```
-docker build -t ssd_v1 . --rm
-docker run -d -h localhost -p 80:80 --name ssd_v1_app -v "$PWD":/var/www/html ssd_v1:latest --rm
-docker logs -f ssd_v1_app
+docker build -t ssd_v2 . --rm
+docker run -d -h localhost -p 80:80 --name ssd_v2_app -v "$PWD":/var/www/html ssd_v2:latest --rm
+docker logs -f ssd_v2_app
 ```
 
 Finally, if all went well, you should be able to visit `localhost` in your client browser of choice and see the 
@@ -46,9 +34,9 @@ application running.
 
 
 ## Warning
-This was a hobby project but an untrained `web developer` on long ago end of life of a language that has come a very 
-long way in 15 years.
-Though recent wrapped in a docker container for portability this site IS NOT:
+This was a hobby project on long ago end of life of a language version.
+Though recently wrapped in a docker container for portability and hosted in a GiT repo; neither of which existed when
+the site was made, this site IS NOT:
  - Secure
  - Pragmatic
  - Best practice adhering
