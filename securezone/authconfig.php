@@ -12,8 +12,8 @@ $logout = "securezone.php"; // FULL URL TO THE LOGOUT FILE
 			
 // DB SETTINGS
 $dbhost = "localhost";	// DB Host name
-$dbusername = "Pheagey"; 	// DB User
-$dbpass = "celcer07";	// DB User password
+$dbusername = USERNAME; 	// DB User
+$dbpass = "PASSWORD";	// DB User password
 $dbname	= "SSDv2Members"; 	// DB Name
 
 ?>

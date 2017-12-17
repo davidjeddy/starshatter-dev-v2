@@ -16,7 +16,6 @@ if(file_exists("userFiles/lists/bg_OtherStuff.php"))
 </table>";
 		include ('userFiles/lists/bg_OtherStuff.php');
 	}
-
 else
 	{
 		echo "<br>";

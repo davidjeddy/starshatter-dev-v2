@@ -9,7 +9,7 @@ $dbms = 'mysql';
 $dbhost = 'localhost';
 $dbname = 'SSDv2Forum';
 $dbuser = 'Pheagey';
-$dbpasswd = 'celcer07';
+$dbpasswd = 'PASSWORD';
 
 $table_prefix = 'phpBB_';
 

@@ -26,25 +26,25 @@
 	</tr>
 </table><br><br><br>
 <a name="originals"></a>
-<?PHP include('includes/contentfiles/OrigLgships.php');?>
+<?PHP include('includes/contentfiles/OrigLgShips.php');?>
 <a name="b5"></a>
-<?PHP include('includes/contentfiles/b5Lgships.php');?>
+<?PHP include('includes/contentfiles/b5LgShips.php');?>
 <a name="saab"></a>
 <?PHP include('includes/contentfiles/saabLgShips.php');?>
 <a name="st"></a>
-<?PHP include('includes/contentfiles/stLgships.php');?>
+<?PHP include('includes/contentfiles/stLgShips.php');?>
 <a name="sw"></a>
-<?PHP include('includes/contentfiles/swLgships.php');?>
+<?PHP include('includes/contentfiles/swLgShips.php');?>
 <a name="bg"></a>
-<?PHP include('includes/contentfiles/bgLgships.php');?>
+<?PHP include('includes/contentfiles/bgLgShips.php');?>
 <a name="fs"></a>
-<?PHP include('includes/contentfiles/fsLgships.php');?>
+<?PHP include('includes/contentfiles/fsLgShips.php');?>
 <a name="hw"></a>
-<?PHP include('includes/contentfiles/hwLgships.php');?>
+<?PHP include('includes/contentfiles/hwLgShips.php');?>
 <a name="battletech"></a>
-<?PHP include('includes/contentfiles/battletechLgships.php');?>
+<?PHP include('includes/contentfiles/battletechLgShips.php');?>
 <a name="other"></a>
-<?PHP include('includes/contentfiles/otherLgships.php');?>
+<?PHP include('includes/contentfiles/otherLgShips.php');?>
 </font>
 		</td>
 	</tr>

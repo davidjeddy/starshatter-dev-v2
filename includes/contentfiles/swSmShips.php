@@ -6,7 +6,6 @@ print "
 	</TR>
 </table>";
 
-
 if(file_exists("userFiles/lisws/sw_drone.php"))
 	{
 		print "

@@ -6,7 +6,6 @@ print "
 	</TR>
 </table>";
 
-
 if(file_exists("userFiles/lists/st_drone.php"))
 	{
 		print "

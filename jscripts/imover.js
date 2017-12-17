@@ -32,6 +32,6 @@ MainMenuSecureZonedown.src="interfaces/default/SecureZone.png";
 
 
 MainMenuTutorialsup=new Image(94,75);
-MainMep.src="p.com/ssdv2/interfaces/default/Tutorials-on.png";
+MainMenuTutorialsup.src="interfaces/default/Tutorials-on.png";
 MainMenuTutorialsdown=new Image(94,75);
 MainMenuTutorialsdown.src="interfaces/default/Tutorials.png";

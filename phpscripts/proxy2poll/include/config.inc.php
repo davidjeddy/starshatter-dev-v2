@@ -8,8 +8,8 @@
 
 $POLLDB["dbName"] = "SSDv2Poll-1";
 $POLLDB["host"]   = "localhost";
-$POLLDB["user"]   = "Pheagey";
-$POLLDB["pass"]   = "celcer07";
+$POLLDB["user"]   = USERNAME;
+$POLLDB["pass"]   = "PASSWORD";
 $POLLDB["class"]  = "class_mysql.php";
 
 

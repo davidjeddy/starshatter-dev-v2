@@ -5,6 +5,7 @@ print "
 		<TD HEIGHT=\"29\" BACKGROUND=\"interfaces/default/SideMenuTitle.png\"><FONT CLASS=\"default\">Babylon 5 Weapons MOD's</font></TD>
 	</TR>
 </table>";
+
 if(file_exists("userFiles/lists/b5_Weapon.php"))
 	{
 		print "

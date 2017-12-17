@@ -13,8 +13,8 @@
 // | Date Started: February 5, 2003                                       |
 // | Last Modified: February 11, 2003                                     |
 // +----------------------------------------------------------------------+
-$mysql_username="Pheagey";
-$mysql_password="celcer07";
+$mysql_username=USERNAME;
+$mysql_password="PASSWORD";
 $mysql_db="ssdv2potd";
 $mysql_host="localhost"; 
 // Format POTD date is displayed in

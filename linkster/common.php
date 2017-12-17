@@ -4,10 +4,10 @@
 # database
 $mysql_server = "localhost";				// MySQL server (try localhost or your domain)
 $database = "SSDv2Links";				// database name
-$user = "Pheagey";					// user with access to database
-$password = "celcer07";				// password for user
+$user = USERNAME;					// user with access to database
+$password = "PASSWORD";				// password for user
 # administration
-$admin_password = "celcer07";				// password required to access admin.php
+$admin_password = "PASSWORD";				// password required to access admin.php
 # options
 $mode = "flat";  				// flat or leveled. use leveled for many categories and/or links
 $show_clicks = "yes";				// yes or no to showing click count per link

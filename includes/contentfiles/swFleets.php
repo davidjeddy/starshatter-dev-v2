@@ -14,9 +14,8 @@ if(file_exists("userFiles/lists/sw_Fleet.php"))
 		<TD HEIGHT=\"29\" BACKGROUND=\"interfaces/default/SideMenuTitle2.png\"><FONT CLASS=\"default\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fleet</font></TD>
 	</TR>
 </table>";
-	include ('userFiles/lists/sw_Fleet.php');
+	    include ('userFiles/lists/sw_Fleet.php');
 	}
-
 else
 	{
 		echo "<br>";

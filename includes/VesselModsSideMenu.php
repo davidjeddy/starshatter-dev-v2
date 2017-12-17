@@ -10,7 +10,7 @@
 				</TR>
 				<TR ALIGN="center">
 					<TD ALIGN="center" VALIGN="middle" BGCOLOR="#E8E984">
-						<a href="Smships.php" class="minilinks">Small Ships</a>
+						<a href="SmShips.php" class="minilinks">Small Ships</a>
 					</TD>
 				</TR>
 				<TR ALIGN="center">
@@ -20,7 +20,7 @@
 				</TR>
 				<TR ALIGN="center">
 					<TD ALIGN="center" VALIGN="middle" BGCOLOR="#E8E984">
-						<a href="Lgships.php" class="minilinks">Large Ships</a>
+						<a href="LgShips.php" class="minilinks">Large Ships</a>
 					</TD>
 				</TR>
 				<TR ALIGN="center">

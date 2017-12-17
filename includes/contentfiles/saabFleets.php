@@ -5,6 +5,7 @@ print "
 		<TD HEIGHT=\"29\" BACKGROUND=\"interfaces/default/SideMenuTitle.png\"><FONT CLASS=\"default\">Space: Above & Beyond MOD's</font></TD>
 	</TR>
 </table>";
+
 if(file_exists("userFiles/lists/saab_Fleet.php"))
 	{
 		print "
@@ -13,10 +14,8 @@ if(file_exists("userFiles/lists/saab_Fleet.php"))
 		<TD HEIGHT=\"29\" BACKGROUND=\"interfaces/default/SideMenuTitle2.png\"><FONT CLASS=\"default\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fleet</font></TD>
 	</TR>
 </table>";
-
 		include ('userFiles/lists/saab_Fleet.php');
 	}
-
 else
 	{
 		echo "<br>";

@@ -5,6 +5,7 @@ print "
 		<TD HEIGHT=\"29\" BACKGROUND=\"interfaces/default/SideMenuTitle.png\"><FONT CLASS=\"default\">Battlestar Galactica Weapons MOD's</font></TD>
 	</TR>
 </table>";
+
 if(file_exists("userFiles/lists/bg_Weapon.php"))
 	{
 		print "

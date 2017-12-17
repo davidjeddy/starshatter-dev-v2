@@ -2,8 +2,8 @@
 class auth{
 	// CHANGE THESE VALUES TO REFLECT YOUR SERVER'S SETTINGS
 	var $HOST = "localhost";	// DB HOST
-	var $USERNAME = "Pheagey";	// USERNAME
-	var $PASSWORD = "celcer07";	// USER PASSWORD
+	var $USERNAME = USERNAME;	// USERNAME
+	var $PASSWORD = "PASSWORD";	// USER PASSWORD
 	var $DBNAME = "SSDv2Members";	// DB NAME
 
 

@@ -6,10 +6,10 @@
  $server = "localhost";
 
 // Username of your mysql database
- $user = "Pheagey";
+ $user = USERNAME;
 
 // Password of your mysql database
- $pass = "celcer07";
+ $pass = "PASSWORD";
 
 // Name of your database
  $mysqldb = "SSDv2Counter";
@@ -155,7 +155,7 @@ if ($install == "") {
       <form action='counter.php' method='post'>
       <input type='hidden' name='action' value='acp'>
       <tr>
-       <td><font size='2'><b>» Login</b></font></td>
+       <td><font size='2'><b>ï¿½ Login</b></font></td>
       </tr>
       <tr height='20'>
        <td><td>
@@ -182,7 +182,7 @@ if ($install == "") {
  if ($loginpasswort != $resulta[0] && $action == "acp") {
 ?>
       <tr>
-       <td><font size='2'><b>» Wrong Password</b></font></td>
+       <td><font size='2'><b>ï¿½ Wrong Password</b></font></td>
       </tr>
       <tr height='20'>
        <td><td>
@@ -198,7 +198,7 @@ if ($install == "") {
       <input type='hidden' name='action' value='save'>
       <input type='hidden' name='loginpasswort' value='<?=$loginpasswort;?>'>
       <tr>
-       <td><b><font size='2'>» Edit Settings</font></b></td>
+       <td><b><font size='2'>ï¿½ Edit Settings</font></b></td>
       </tr>
       <tr height='20'>
        <td><td>
@@ -243,7 +243,7 @@ if ($install == "") {
        </td>
       </tr>
       <tr>
-       <td><b><font size='2'>» Information</font></b></td>
+       <td><b><font size='2'>ï¿½ Information</font></b></td>
       </tr>
       <tr height='20'>
        <td><td>
@@ -279,7 +279,7 @@ if ($install == "") {
   if ($fehler != ""){
 ?>
       <tr>
-       <td><b><font size='2'>» Error</font></b></td>
+       <td><b><font size='2'>ï¿½ Error</font></b></td>
       </tr>
       <tr height='20'>
        <td><td>
@@ -299,7 +299,7 @@ if ($install == "") {
  </head>
  <body>
       <tr>
-       <td><b><font size='2'>» Settings saved</font></b></td>
+       <td><b><font size='2'>ï¿½ Settings saved</font></b></td>
       </tr>
       <tr height='20'>
        <td><td>
